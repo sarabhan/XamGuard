@@ -10,10 +10,10 @@ This project is intended as a proof of concept, not a production-ready system.
   2. Optical flow–based head movement tracking
 
   3. Detection of:
-      -> Excessive head movement
-      -> Multiple people in frame
-      -> Face absence from camera
-      -> Works with a standard webcam
+      a. Excessive head movement
+      b. Multiple people in frame
+      c. Face absence from camera
+      d. Works with a standard webcam
 
   4. Single-file implementation for simplicity
 
@@ -45,10 +45,10 @@ This project has known limitations:
 🟡 Early-stage / Experimental
 This project is meant for:
 
-  -> Learning
-  -> Research
-  -> Community feedback
-  -> Feature exploration
+  a. Learning
+  b. Research
+  c. Community feedback
+  d. Feature exploration
 
 🤝 Contributions & Suggestions
 
