@@ -47,3 +47,6 @@ This project is meant for:
 
 Contributions, ideas, and feedback are very welcome!
 Feel free to open an issue, suggest enhancements, submit a pull request
+
+Join the discussion here: 
+https://github.com/sarabhan/XamGuard/discussions/
