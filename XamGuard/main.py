@@ -30,6 +30,9 @@ else:
 total_distance_left = 0.0
 total_distance_right = 0.0
 
+#assign value to movement threshold
+MOVEMENT_THRESHOLD = 1000
+
 while True:
     ret, next_frame = cap.read()
     if not ret:
@@ -67,8 +70,9 @@ while True:
         break
         print(f"Total distance moved to the left: {total_distance_left} pixels")
         print(f"Total distance moved to the right: {total_distance_right} pixels")
-        if (total_distance_left + total_distance_right) > 1000: #select distance threshold accordingly
+        if (total_distance_left + total_distance_right) > MOVEMENT_THRESHOLD: #select distance threshold accordingly
             print("candidate moved around too much. may be cheating")
 
 cap.release()
+
 cv2.destroyAllWindows()
